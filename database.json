@@ -1,0 +1,149 @@
+    { 
+            "Lezioni_primo_anno":[
+                {   "id": "0",
+                    "Materia : ": "Analisi Matematica 1",
+                    "Docente : ": "Rubbioni",
+                    "Orario : " : "Martedi : 9-11 , Giovedi : 9-11 , Venerdi : 9-11",
+                    "Aula : " : "A0",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTI2NTlkNjItMDRiNS00ZjExLTgwMzEtODZhMmRmODE2MzEy%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%224187b41a-da60-46d0-899f-ed99d0a8db1b%22%7d"
+                },
+                {
+                    "id": "1",
+                    "Materia : ": "Matematica Discreta 1",
+                    "Docente : ": "F.A.Rossi",
+                    "Orario : " : "Mercoledi : 14-17 , Giovedi : 14-16 ",
+                    "Aula : " : "A0",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzVlNWZhNWItZTEzOC00OTc0LWFjYjgtOTEyZjA0YTljZWEx%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%22d490f2a7-0fb4-44ef-a93e-ca22a8006de2%22%7d"
+                },
+                {
+                    "id": "2",
+                    "Materia : ": "Programmazione procedurale con laboratorio",
+                    "Docente : ": "Santini",
+                    "Orario : " : "Lunedi: 14-16, Martedi : 9-11 , Giovedi : 11-13 , Venerdi : 11-13",
+                    "Aula : " : "A0",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmUzZjk1YTktYzM3Mi00OWQxLWJmNmQtMTdjMDMwYzA1MzIz%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%22f7e30ccf-dc6d-459b-a881-bd74b658d153%22%7d"
+                },
+                {
+                    "id": "3",
+                    "Materia : ": "Logica e Reti logiche",
+                    "Docente : ": "Gentilini",
+                    "Orario : " : "Martedi : 11-13 , Mercoledi : 11-13",
+                    "Aula : " : "A0",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTdjZWM3M2YtNmNlYS00M2Q1LWJiZGEtNzdjZWE5YzMzZWNm%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%22e9be3964-f118-44ac-8efd-3a436c4307c1%22%7d"
+                }
+            ],
+
+            "Lezioni_secondo_anno":[
+                {
+                    "id": "4",
+                    "Materia : ": "Algoritmi e Strutture dati con laboratorio - modulo I",
+                    "Docente : ": "Pinotti",
+                    "Orario : " : "Lunedi : 14-16 , Martedi : 9-11 : 14-17, Mercoledi : 9-11",
+                    "Aula : " : "A2",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWY5MzY3YjEtZjk5OC00MDRjLTg4YzUtZmQ1NzlhZTI3YjIw%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%22c0e3f2ff-81b4-45bc-be53-ce002b0db949%22%7d"
+                },
+                {
+                    "id": "5",
+                    "Materia : ": "Calcolo probabilita' e statistica matematica",
+                    "Docente : ": "Troiani,Capotorti",
+                    "Orario : " : "Martedi : 11-13 , Mercoledi : 11-13",
+                    "Aula : " : "A2",
+                    "Link : " : "Link-videolezione"
+                },
+                {
+                    "id": "6",
+                    "Materia : ": "Calcolo Numerico",
+                    "Docente : ": "Gerace, Iannazzo",
+                    "Orario : " : "Lunedi : 9-11 , Mercoledi : 16-18 , Giovedi : 9-11",
+                    "Aula : " : "A2",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTEzM2M0ZjYtNzUzZC00MTJlLWJhNjUtYjFhY2NiOWFkMjEz%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%227465dbac-6781-4769-9e38-6abdc741f326%22%7d"
+                }
+            ],
+            "Lezioni_terzo_anno" :[
+                {
+                    "id": "7",
+                    "Materia : ": "Architettura reti ",
+                    "Docente : ": "Gervasi",
+                    "Orario : " : "Lunedi : 9-11 , Venerdi : 11-13 A2",
+                    "Aula : " : "A2 | A3",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGEyYTM5NTctMDA2ZC00OTExLWI5ZjEtNjZlMzBkZmE2YzQ4%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%226f5d4368-7146-452e-a22d-2bddecb73eea%22%7d"
+                },
+                {
+                    "id": "8",
+                    "Materia : ": "Basi di dati e Sistemi informativi con Laboratorio",
+                    "Docente : ": "Gentilini",
+                    "Orario : " : "Lunedi : 11-13 A0 , Mercoledi : 14-16 A2 , Giovedi : 15-17 A2",
+                    "Aula : " : "A2 | A0",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTQzZGU2ZWYtODUwZi00ZDE5LTgxMmUtM2YxZTc4NWVjYjQ1%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%22e9be3964-f118-44ac-8efd-3a436c4307c1%22%7d"
+                },
+                {
+                    "id": "9",
+                    "Materia : ": "Introduzione alla Sicurezza Informatica",
+                    "Docente : ": "Bistarelli",
+                    "Orario : " : "Lunedi : 14-16 , Mercoledi : 11-13",
+                    "Aula : " : "A0 | VERDE",
+                    "Link : " : "Link-videolezione"
+                },
+                {
+                    "id": "10",
+                    "Materia : ": "Introduzione alla Intelligenza Artificiale",
+                    "Docente : ": "Poggioni",
+                    "Orario : " : "Giovedi : 11-14 , Venerdi : 9-11",
+                    "Aula : " : "A2",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDA0ZTg1NDctYWVlMy00OTRkLTlkOTctNjIyYTQ0NmE5NmRm%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%22e3811134-88a3-4918-a7a8-ffb633620210%22%7d"
+                },
+                {
+                    "id": "11",
+                    "Materia : ": "Protocolli",
+                    "Docente : ": "Tasso",
+                    "Orario : " : "Martedi : 11-13 V , Mercoledi : 9-11 I2",
+                    "Aula : " : "VERDE | I2",
+                    "Link : " : "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTBkYTM0OGMtZTQ2My00ZjZlLTg4YTMtZmExYzM3NDM3OTc2%40thread.v2/0?context=%7b%22Tid%22%3a%22067e7d20-e70f-42c6-ae10-8b07e8c4a003%22%2c%22Oid%22%3a%22aca762a6-4783-4191-aa41-56c2b95182da%22%7d"
+                }
+            ],
+            "Esami_primo_anno":[
+                {
+                    "Materia : ":"Analisi Matematica 1",
+                    "Docente : ": "Rubbioni",
+                    "Orario : " : "Martedi : 11-01-2023 09:00 am",
+                    "Aula : " : "I2",
+                    "Link : " : "Link-esame"
+                }
+            ],
+            "Esami_secondo_anno":[
+                {
+                    "Materia : ":"Algoritmi e Strutture dati con laboratorio - modulo I",
+                    "Docente : ": "Pinotti",
+                    "Orario : " : "Venerdi : 11-01-2023 12:00 pm",
+                    "Aula : " : "A3",
+                    "Link : " : "Link-esame"
+                }
+            ],
+            "Esami_terzo_anno":[
+                {
+                    "Materia : ":"Introduzione alla Sicurezza Informatica",
+                    "Docente : ": "Bistarelli",
+                    "Orario : " : "Martedi : 10-11-2023 09:00 am",
+                    "Aula : " : "I2",
+                    "Link : " : "Link-esame"
+                }
+        ],
+        "Lauree 2023-2024":[
+            {
+                "Data : ": "10-10-2023",
+                "Orario : ": "ore 10:00",
+                "Link : " : "https://teams.microsoft.com"
+            },
+            {
+                "Data : ": "23-02-2024",
+                "Orario : ": "ore 14:00",
+                "Link : " : "https://teams.microsoft.com"
+            },
+            {
+                "Data : ": "11-06-2024",
+                "Orario : ": "ore 11:00",
+                "Link : " : "https://teams.microsoft.com"
+            }
+        ]
+        
+    }
