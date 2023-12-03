@@ -97,10 +97,11 @@ async def lezioni(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
         #chiamate per la ricerca
     chiamataUnistudium(text, driver) 
     paginated_results = paginate_text(ricerca(driver))
-    #print(paginated_results)
+    
 
-    if "0 risultati" in paginated_results:
-        await update.message.reply_text("Nessun risultato trovato.")
+    if not bool(paginated_results):
+        await update.message.reply_text("Nessun risultato trovato riprova.")
+        return LEZIONI
     else:
         sent_pages = set()
         for page in paginated_results:
@@ -265,7 +266,7 @@ def main() -> None:
     # Run the bot until the user presses Ctrl-C
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
-def paginate_text(text, max_length=4096):
+def paginate_text(text, max_length=2048):
     if len(text) <= max_length:
         print(len(text))
     pages = []
@@ -276,7 +277,6 @@ def paginate_text(text, max_length=4096):
         pages.append(text[start:end])
         start = end
         print("ciclo quante volte conto lo start :",start)
-    #print (pages)
     return pages
 
 if __name__ == "__main__":
