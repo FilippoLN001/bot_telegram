@@ -3,6 +3,7 @@
 ## Descrizione
 
 Benvenuto nel repository del Bot Telegram Universitario. Questo bot è stato progettato per semplificare la ricerca di informazioni riguardanti lezioni, esami e programmi di laurea presso l'Università di [Universtà degli studi di Perugia].
+Utilizza lo *scraping* del sito "https://unistudium.unipg.it/cercacorso.php"
 
 ## Funzionalità
 
