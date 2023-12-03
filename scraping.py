@@ -1,6 +1,7 @@
+
 from bs4 import BeautifulSoup
-from httpcore import TimeoutException
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+
+from selenium.common.exceptions import  NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -10,6 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def chiamataUnistudium(ricerca,driver):
 # Trova un campo di input e inserisci dati
+    
     input_element = driver.find_element(By.NAME, "query")
     input_element.send_keys(ricerca)
 
@@ -64,3 +66,4 @@ def ricerca(driver):
 def chiudi(driver):
 # Chiudi il browser
     driver.quit()
+    

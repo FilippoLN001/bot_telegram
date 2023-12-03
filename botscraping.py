@@ -115,15 +115,12 @@ async def lezioni(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
     await update.message.reply_text(str(ve))
     return LEZIONI
  except telegram.error.BadRequest as bad_request_exception:
-        if "Message text is empty" in str(bad_request_exception):
-            await update.message.reply_text("La materia cercata non è valida. Per favore, riprova.")
-            
-        else:
+    if "Message text is empty" in str(bad_request_exception):
+        await update.message.reply_text("La materia cercata non è valida. Per favore, riprova.")
+    else:
         # Stampa il messaggio di errore solo se non è causato da un risultato generico o errato
-           await update.message.reply_text("Il risultato è generico o errato riprova.")
-        
-        
-        return LEZIONI
+        await update.message.reply_text("Il risultato è generico o errato riprova.")
+    return LEZIONI
  except Exception as e:
         logger.error("Exception during lezioni: %s", e, exc_info=True)
         return ConversationHandler.END
