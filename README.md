@@ -2,7 +2,7 @@
 
 ## Descrizione
 
-Benvenuto nel repository del Bot Telegram Universitario. Questo bot è stato progettato per semplificare la ricerca di informazioni riguardanti lezioni, esami e programmi di laurea presso l'Università di [Nome dell'Università].
+Benvenuto nel repository del Bot Telegram Universitario. Questo bot è stato progettato per semplificare la ricerca di informazioni riguardanti lezioni, esami e programmi di laurea presso l'Università di [Universtà degli studi di Perugia].
 
 ## Funzionalità
 
