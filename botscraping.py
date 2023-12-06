@@ -81,7 +81,7 @@ async def lezioni(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
  try:
     chrome_options = Options()
     chrome_options.add_argument("--headless")
-    chrome_path = "D:/chromedriver.exe"
+    chrome_path = "C:/Users/Filippo\OneDrive/Documents/chromedriver-win64/chromedriver-win64/chromedriver.exe"
     chrome_service = webdriver.ChromeService(executable_path=chrome_path)
     driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
     driver.get("https://unistudium.unipg.it/cercacorso.php")

@@ -47,8 +47,17 @@ def ricerca(driver):
         table_rows = element.find_all('tr')
         for row in table_rows:
             columns = row.find_all('td')
+            from urllib.parse import urljoin
             for col in columns:
-                result_string += col.text + "\n"
+                link_tag = col.find('a')
+                if link_tag:
+                    # Estrai l'attributo href dal tag <a>
+                    link = link_tag.get('href')
+                    link = urljoin(driver.current_url, link)
+                    
+                    result_string += f"Link al meeting: {link}\n"
+                else:
+                    result_string += col.text + "\n"
     else:
         # Cerca la stringa "0 risultati" direttamente nel contenuto HTML
         try:
