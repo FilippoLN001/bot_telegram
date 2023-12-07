@@ -27,6 +27,7 @@ Utilizza lo *scraping* del sito "https://unistudium.unipg.it/cercacorso.php"
 
 - Python 3.6 o versioni successive.
 - Librerie Python: [Selenium (con istallazione di chromedriver),Telegram,Telegram.ext,json(per la ricerca di esami e lauree)].
+- Scaricare chromedriver con la stessa versione di chrome, inserendo il percorso del file dove si trova quest'ultimo all'interno del PATH
 
 ## Configurazione
 
