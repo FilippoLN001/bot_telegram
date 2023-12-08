@@ -237,7 +237,7 @@ async def cancel(update: Update, context: ContextTypes.DEFAULT_TYPE) -> int:
 def main() -> None:
     """Run the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token("6360134762:AAEKs4sxvXKAffJsVV0V4UWZANAySMLiAxc").build()
+    application = Application.builder().token("TOKEN HERE!").build()
     application.add_handler(CommandHandler("menu", menu))
 
     application.add_error_handler(error_handler)
